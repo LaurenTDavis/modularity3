@@ -1,0 +1,72 @@
+/* ADD YOUR STYLES HERE */
+/* Signup Form */
+
+.sign {
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: right;
+}
+
+.prompt {
+ 	padding-right: 10px;
+ 	margin-left: 50px;
+}
+
+.inputDisplay {
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	margin: 10px;
+	height: 25px;
+}
+
+.displayLarge {
+	width: 300px;
+}
+
+.displaySmall {
+	width: 30px;
+}
+
+.displayMedium {
+	width: 200px;
+}
+
+.button1 {
+	background-color: lightgrey;
+	border: 0;
+	width: 300px;
+	border-radius: 5px;
+	padding: 10px;
+}
+.button1:hover {
+	background-color: darkgrey;
+}
+
+input[type="checkbox"] {
+	margin-right: 10px;
+}
+.spacing {
+	padding: 10px 110px 10px 0;
+}
+
+/* Form Validation */
+.whiteSpace {
+	padding: 25px;
+}
+
+.valid {
+	box-shadow: 0 0 5px #3EDB39;
+}
+
+.invalid {
+	box-shadow: 0 0 5px #FA0000;
+}
+
+.is-valid {
+	color: #3EDB39;
+
+}
+
+.is-invalid { 
+	color: #FA0000;
+}
