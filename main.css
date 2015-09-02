@@ -70,3 +70,81 @@ input[type="checkbox"] {
 .is-invalid { 
 	color: #FA0000;
 }
+
+/* Search Bar */
+
+.search-bar {
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	background-color: #ccc;
+	padding: 10px 20px;
+}
+
+.column {
+	position: relative;
+}
+
+.left {
+	position: absolute;
+	top: 13px;
+	left: 13px;
+}
+
+.center {
+	margin: 0 70px 0 85px;
+}
+
+.right {
+	position: absolute;
+	width: 65px;
+	top: 10px;
+	right: 10px;
+}
+
+.fill {
+	width: 100%;
+}
+
+.label {
+	line-height: 26px;
+}
+
+.button2 {
+	background-color: #FC7E7E;
+	color: white;
+	border-radius: 5px;
+	font-size: 14px;
+	border: 0;
+}
+
+/* Omnibox */
+
+.tags {
+	position: absolute;
+	list-style: none;
+	padding: 0;
+	line-height: 22px;	
+}
+.omnibox-label {
+	display: inline;
+	color: #fff;
+	background-color: #828aec;
+	margin: 3px;
+	padding: 3px 6px 3px 3px;
+	font-size: 12px;
+	border-radius: 5px;
+}
+.omnibox-color {
+	color: #ccc;
+	background-color: #5D52BF;
+	border-radius: 3px;
+	padding: 0 3px;
+	margin-right: 3px;
+	text-decoration: none;
+}
+.omni-input {
+	padding-left: 220px;
+}
+
+/*Chunky List*/
+
